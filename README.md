@@ -33,3 +33,13 @@ Once you have set up the FearNGreed Index Alarm and added the necessary secrets,
 If you want to use a AI stock watch service and notification service, or don't know how to use tech indicators, I recommand you to access [www.investmentstrategy365.com](https://www.investmentstrategy365.com).
 
 You can see our past advices in this link: [www.investmentstrategy365.com/monitor?history=1](https://www.investmentstrategy365.com/monitor?history=1).
+
+## Interactive Live Book
+
+This repository now also ships with an experimental "live book" experience that procedurally expands a story while you read it. Launch it locally with:
+
+```bash
+npm run live-book
+```
+
+The CLI will present choices that focus on specific characters, deepen the world, or introduce twists. Each selection instantly writes a new page, updates character arcs, and stores the recent passages so you can revisit them with the `history` command. Use `summary` at any time to review the current act, tone, and character progress, or `quit` to leave the session.
